@@ -354,9 +354,7 @@ input, textarea {
   }
 
   .links-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-right: 10px;
   }
 
   .main-content {
