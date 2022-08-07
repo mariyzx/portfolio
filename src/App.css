@@ -298,7 +298,7 @@ input, textarea {
 
 /* ====== MEDIA QUERIES ======= */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
   .container {
     width: var(--container-width-md);
   }
@@ -348,6 +348,17 @@ input, textarea {
     font-size: small;
   }
 
+  .header__container > div {
+    margin: 10px;
+    padding: 0rem;
+  }
+
+  .links-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .main-content {
     margin-top: 9rem;
   }
@@ -367,5 +378,13 @@ input, textarea {
 
   .tech li {
     margin: 0;
+  }
+
+  .contact_option {
+    width: 82%;
+  }
+
+  form {
+    width: 80%;
   }
 }
