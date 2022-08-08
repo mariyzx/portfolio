@@ -231,8 +231,10 @@ nav > ul > li {
 }
 
 .tech ul {
+  align-items: center;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
   list-style: none;
 }
 
@@ -305,6 +307,7 @@ input, textarea {
 
   .header__container {
     width: 100%;
+    height: 123px;
   }
 
   nav > ul {
@@ -312,6 +315,14 @@ input, textarea {
     flex-direction: row;
     list-style: none;
     padding: 0;
+  }
+
+  .header__container > div {
+    margin-left: 10px;
+  }
+
+  .links-header {
+    margin-right: 2rem;
   }
 
   .hello {
@@ -331,8 +342,10 @@ input, textarea {
   }
 
   .container.contact_container {
+    margin-left: 24%;
     grid-template-columns: 1fr;
     gap: 2rem;
+    width: 50%;
   }
 }
 
@@ -348,16 +361,11 @@ input, textarea {
   }
 
   .header__container > div {
-    margin-left: 10px;
-    padding: 0rem;
-  }
-
-  .header__container li {
-    margin-right: 10px;
+    margin-left: 10%;
   }
 
   .links-header {
-    margin-right: 10px;
+    margin-right: 10%;
   }
 
   .main-content {
@@ -378,11 +386,11 @@ input, textarea {
   }
 
   .tech li {
-    margin: 0;
+    gap: 2%;
   }
 
   .contact_option {
-    width: 90%;
+    width: 88%;
   }
 
   form {
@@ -391,5 +399,6 @@ input, textarea {
 
   .container.contact_container {
     width: 80%;
+    margin-left: 12%;
   }
 }
