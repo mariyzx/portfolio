@@ -334,7 +334,6 @@ input, textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -349,8 +348,12 @@ input, textarea {
   }
 
   .header__container > div {
-    margin: 10px;
+    margin-left: 10px;
     padding: 0rem;
+  }
+
+  .header__container li {
+    margin-right: 10px;
   }
 
   .links-header {
@@ -383,6 +386,10 @@ input, textarea {
   }
 
   form {
+    width: 80%;
+  }
+
+  .container.contact_container {
     width: 80%;
   }
 }
