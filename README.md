@@ -9,6 +9,12 @@ Projetos listados;
 ## Tecnologias utilizadas:
 
  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+ 
+## Como utilizar:
+
+<p>Clone o repositório: <code> git@github.com:mariyzx/portfolio.git</code>.</p>
+<p>Acesse a pasta do repositório clonado.</p>
+<p>Rode o comando <code>npm install</code> para instalar as dependências do projeto e <code>npm start</code> para visualizar no navegador.</p>
 
 ## Preview:
 
