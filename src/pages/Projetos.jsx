@@ -9,7 +9,7 @@ class Projetos extends React.Component {
         <div className="projects">
           {projects.map((project, index) => (
             <div key={ index } onClick={ () => this.showDetails(project)} className="project">
-              <img src={ project.img } alt={ project.description } className="img-project" />
+              <img width="435px" height="204px" src={ project.img } alt={ project.description } className="img-project" />
               <p><a href={project.links.github} target="_blank" rel="noreferrer">{project.name}</a></p>
               <p>{project.description}</p>
               <div className="tech">

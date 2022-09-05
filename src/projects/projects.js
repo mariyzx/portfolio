@@ -3,6 +3,7 @@ const systemSolar = require('./img/systemsolar3.png');
 const tryunfo = require('./img/tryunfo2.png');
 const trybetunes = require('./img/trybetunes.PNG');
 const trybewallet = require('./img/trybewallet3.png');
+const recipes = require('./img/recipes-app.png');
 
 module.exports = [
   {
@@ -55,4 +56,14 @@ module.exports = [
     description: 'Aplicação que computa gastos em diferentes moedas e converte tudo para uma única moeda, utilizando uma API de Cotação de Moedas.',
     tech: ['Redux', 'ReactJS', 'CSS', 'API', 'RTL']
   },
+  {
+    name: 'Recipes App',
+    img: recipes,
+    links: {
+      preview: 'https://recipes-app-mariyzx.vercel.app/',
+      github: 'https://github.com/mariyzx/Recipes-App',
+    },
+    description: 'Projeto final de Front-End! Aplicação que retorna receitas de comidas e bebidas, com filtros, tela de receitas favoritadas e receitas concluídas.',
+    tech: ['ReactJS', 'CSS', 'Context API', 'RTL', 'API']
+  }
 ]
