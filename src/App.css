@@ -248,6 +248,7 @@ nav > ul > li {
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  margin-bottom: 2rem;
 }
 
 .contact_options {
@@ -264,8 +265,9 @@ nav > ul > li {
   border-radius: 1.2rem;
   text-align: center;
   border: 3px solid transparent;
+  margin-left: 30px;
   transition: var(--transitition);
-  width: 100%;
+  width: 109%;
 }
 
 .contact_option:hover {
@@ -282,6 +284,10 @@ nav > ul > li {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+}
+
+.contact_option a:visited {
+  color: #0000EE;
 }
 
 form {
