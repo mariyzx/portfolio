@@ -195,6 +195,7 @@ nav > ul > li {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -207,7 +208,6 @@ nav > ul > li {
   padding: 2rem;
   transition: var(--transitition);
   margin-bottom: 1rem;
-  margin-left: 1rem;
   text-align: center;
 }
 
@@ -251,8 +251,10 @@ nav > ul > li {
 }
 
 .contact_options {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1.2rem;
 }
 
@@ -391,10 +393,11 @@ input, textarea {
 
   .contact_option {
     width: 88%;
+    margin-right: 10px;
   }
 
   form {
-    width: 90%;
+    width: 82%;
   }
 
   .container.contact_container {
