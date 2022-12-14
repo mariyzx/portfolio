@@ -6,8 +6,8 @@ class Header extends React.Component {
     <header>
       <div className="container header__container">
         <div>
-          <h2>Mariana Werneck</h2>
           <h4>Portfolio Pessoal</h4>
+          <h2>Mariana Werneck</h2>
         </div>
         <nav className="links-header">
           <ul>
