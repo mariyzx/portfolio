@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Main from "../components/Main";
+import { MainScreen } from "../styles/components/FirstScreen";
 import Contato from "./Contato";
 import Projetos from "./Projetos";
 import SobreMim from "./SobreMim";
@@ -9,9 +10,11 @@ class Home extends React.Component {
   render() {
     return (
     <div>
-      <Header />
-      <Main />
-      <SobreMim />
+      <MainScreen>
+        <Header />
+        <Main />
+        <SobreMim />
+      </MainScreen>
       <Projetos />
       <Contato />
     </div>

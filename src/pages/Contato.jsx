@@ -27,12 +27,12 @@ class Contato extends React.Component {
             <a href="https://www.linkedin.com/in/marinhomariana8/" target="_blank" rel="noreferrer">Enviar mensagem</a>
           </article>
         </div>
-        {/* <form action="https://formsubmit.co/6017a703556f84b48d26de2cc13ee0ae" method="POST">
+        <form action="https://formsubmit.co/6017a703556f84b48d26de2cc13ee0ae" method="POST">
           <input type="text" name="name" placeholder="Nome Completo" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea name="mensagem" rows="7" placeholder="Sua mensagem" required></textarea>
           <button type="submit" className="btn btn-primary">Enviar mensagem</button>
-        </form> */}
+        </form>
        </div>
       </section>
     )
