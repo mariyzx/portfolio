@@ -1,14 +1,14 @@
 import React from "react";
-import mari from '../imgs/mari.PNG';
+import { MainTitle } from "../styles/components/Title";
 
 class Main extends React.Component {
   render() {
     return (
-      <section className="main-content">
-        <img src={mari} width={240} className="avatar" />
-        <h1 className="hello blink-cursor">Olá, sou Mariana Werneck</h1>
-        <h2>Front-end developer</h2>
-      </section>
+      <MainTitle>
+        <h3>Portfolio</h3>
+        <h1>Mariana Werneck</h1>
+        <h3>Front-end developer</h3>
+      </MainTitle>
     );
   }
 }

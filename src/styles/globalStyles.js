@@ -10,15 +10,14 @@ export const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
     width: 100%;
-    overflow: hidden;
-
+    overflow-y: scroll; overflow-x:hidden;
   }
 
   body {
     min-height: 100vh;
     min-width: 100%;
     overflow: hidden;
-
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 `
