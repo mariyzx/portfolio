@@ -6,7 +6,7 @@ class SobreMim extends React.Component {
       <section id="about">
         <h2>Sobre mim</h2>
 
-        <div className="container about_container">
+        {/* <div className="container about_container">
           <div className="about_content">
             <div className="about_cards">
               <article className="about_card">
@@ -18,7 +18,7 @@ class SobreMim extends React.Component {
               <a href="/#contato" className="btn btn-primary">Vamos conversar</a>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     )
   }
