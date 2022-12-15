@@ -1,14 +1,15 @@
 import React from "react";
 import projects from '../projects/projects';
+import { CardProject, DivProjects, MainProject } from "../styles/components/Projects";
 
 class Projetos extends React.Component {
   render() {
     return (
-      <section id="projetos">
+      <MainProject>
         <h2>Projetos</h2>
-        <div className="projects">
+        <DivProjects>
           {projects.map((project, index) => (
-            <div key={ index } onClick={ () => this.showDetails(project)} className="project">
+            <CardProject key={ index } onClick={ () => this.showDetails(project)} className="project">
               <img width="435px" height="204px" src={ project.img } alt={ project.description } className="img-project" />
               <p><a href={project.links.github} target="_blank" rel="noreferrer">{project.name}</a></p>
               <p>{project.description}</p>
@@ -22,10 +23,10 @@ class Projetos extends React.Component {
               <a href={project.links.preview} target="_blank" rel="noreferrer">
                 <button className="btn btn-primary">Preview</button>
               </a>
-            </div>
+            </CardProject>
           ))}
-        </div>
-      </section>
+        </DivProjects>
+      </MainProject>
     )
   }
 }

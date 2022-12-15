@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Main from "../components/Main";
-import { MainScreen } from "../styles/components/FirstScreen";
+import { MainScreen } from "../styles/pages/MainScreen";
 import Contato from "./Contato";
 import Projetos from "./Projetos";
 import SobreMim from "./SobreMim";
