@@ -23,6 +23,7 @@ export const DivProjects = styled.div`
 export const CardProject = styled.div`
   flex: 0 1 24%;
   padding: 10px;
+  position: relative;
 
   div > ul {
     display: flex;
@@ -31,7 +32,41 @@ export const CardProject = styled.div`
     list-style-type: none;
   }
 
-  @media only screen and (max-width: 435px) {
-    
-  }  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    border: 2px solid transparent;
+    border-radius: 20px;
+  }
+
+  :hover div {
+    cursor: pointer;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 1; 
+  }
+
+  :hover img {
+    filter: blur(2px)
+  }
+
+`
+
+export const AboutProject = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 435px;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 4rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear; 
+
 `
