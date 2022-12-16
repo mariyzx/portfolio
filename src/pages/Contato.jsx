@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { SiMinutemailer } from 'react-icons/si'
+import Footer from '../components/Footer';
 import { Button } from '../styles/components/Button';
 import { DivContact, MainContact } from '../styles/components/Contact';
 import { Divider } from '../styles/components/Divider';
@@ -39,6 +40,7 @@ class Contato extends React.Component {
             <Button type="submit"><SiMinutemailer /></Button>
           </form>
         </div>
+        <Footer />
       </MainContact>
     )
   }

@@ -5,13 +5,14 @@ export const MainContact = styled.section`
 
   div {
     display: flex;
-    margin-top: 13px;
+    margin-top: 10px;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 1rem;
   }
 
   form {
-    margin-top: 13px;
+    margin-top: 10px;
     display: flex;
     gap: 1rem;
     flex-direction: column;
