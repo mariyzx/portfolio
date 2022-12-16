@@ -1,6 +1,7 @@
-const trybetunes = require('./img/trybetunes.PNG');
-const trybewallet = require('./img/trybewallet3.png');
-const recipes = require('./img/recipes-app.png');
+const trybetunes = require('../assets/thumbs/trybetunes.PNG');
+const trybewallet = require('../assets/thumbs/trybewallet3.png');
+const recipes = require('../assets/thumbs/recipes-app.png');
+const tfc = require('../assets/thumbs/tfc.PNG');
 
 module.exports = [
   {
@@ -27,10 +28,20 @@ module.exports = [
     name: 'Recipes App',
     img: recipes,
     links: {
-      preview: 'https://recipes-app-mariyzx.vercel.app/',
-      github: 'https://github.com/mariyzx/Recipes-App',
+      preview: 'http://projeto-receitas.vercel.app/',
+      github: 'https://github.com/mariyzx/projeto-receitas',
     },
     description: 'Projeto final de Front-End! Aplicação que retorna receitas de comidas e bebidas, com filtros, tela de receitas favoritadas e receitas concluídas.',
-    tech: ['ReactJS', 'CSS', 'Context API', 'RTL', 'API']
+    tech: ['ReactJS', 'CSS', 'Context API', 'Styled Components']
+  },
+  {
+    name: 'TFC',
+    img: tfc,
+    links: {
+      preview: 'https://tfc-mariyzx.vercel.app/leaderboard',
+      github: 'https://github.com/mariyzx/tfc',
+    },
+    description: 'API para um site informativo de partidas e classificações de futebol, com listagem de times, partidas e autenticação do usuário. API documentada com o Swagger.',
+    tech: ['Node.js', 'MySQL', 'Docker', 'Typescript', 'Sequelize']
   }
 ]

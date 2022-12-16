@@ -1,17 +1,22 @@
 import React from "react";
 import Header from "../components/Header";
 import Main from "../components/Main";
+import { MainScreen } from "../styles/pages/MainScreen";
 import Contato from "./Contato";
 import Projetos from "./Projetos";
 import SobreMim from "./SobreMim";
+import Techs from "./Tech";
 
 class Home extends React.Component {
   render() {
     return (
-    <div id="home">
-      <Header />
-      <Main />
-      <SobreMim />
+    <div>
+      <MainScreen>
+        <Header />
+        <Main />
+        <SobreMim />
+      </MainScreen>
+      <Techs />
       <Projetos />
       <Contato />
     </div>
