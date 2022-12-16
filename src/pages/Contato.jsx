@@ -3,7 +3,7 @@ import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { SiMinutemailer } from 'react-icons/si'
 import Footer from '../components/Footer';
 import { Button } from '../styles/components/Button';
-import { DivContact, MainContact } from '../styles/components/Contact';
+import { DivContact, MainContact } from '../styles/pages/Contact';
 import { Divider } from '../styles/components/Divider';
 
 class Contato extends React.Component {

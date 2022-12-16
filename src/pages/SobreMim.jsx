@@ -1,5 +1,5 @@
 import React from "react";
-import { MainAbout } from "../styles/components/About";
+import { MainAbout } from "../styles/pages/About";
 
 class SobreMim extends React.Component {
   render() {

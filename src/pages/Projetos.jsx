@@ -1,6 +1,6 @@
 import React from "react";
 import projects from '../projects/projects';
-import { AboutProject, CardProject, DivProjects, MainProject } from "../styles/components/Projects";
+import { AboutProject, CardProject, DivProjects, MainProject } from "../styles/pages/Projects";
 import { CgWebsite } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
 import { Button } from "../styles/components/Button";
