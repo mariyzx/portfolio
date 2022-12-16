@@ -34,6 +34,7 @@ class Contato extends React.Component {
             </article>
           </DivContact>
           <form action="https://formsubmit.co/6017a703556f84b48d26de2cc13ee0ae" method="POST">
+            Me envie uma mensagem :)
             <input type="text" name="name" placeholder="Nome Completo" required />
             <input type="email" name="email" placeholder="Email" required />
             <input type="text" name="mensagem" rows="7" placeholder="Sua mensagem" required></input>

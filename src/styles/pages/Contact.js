@@ -9,6 +9,14 @@ export const MainContact = styled.section`
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 1rem;
+    
+    a {
+      color: purple;
+    }
+
+    a:visited {
+      color: blue;
+    }
   }
 
   form {

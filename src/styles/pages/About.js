@@ -7,6 +7,15 @@ export const MainAbout = styled.section`
   align-items: center;
   text-align: center;
 
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+  }
+
   a {
     color: white;
   }

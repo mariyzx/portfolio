@@ -16,7 +16,6 @@ export const DivProjects = styled.div`
 
   div:nth-child(4) {
     div {
-
       margin-bottom: 0rem;
     }
   }

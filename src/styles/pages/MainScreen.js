@@ -9,8 +9,9 @@ export const MainScreen = styled.div`
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 7rem;
   color: white;
+  font-size: 18px;
 
   /* SMARTPHONES LANDSCAPE */
   @media only screen and (max-width: 435px) {
