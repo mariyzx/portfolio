@@ -44,7 +44,7 @@ export const CardProject = styled.div`
 
   :hover div {
     cursor: pointer;
-    padding: 8px 15px;
+    padding: 5px 10px;
     visibility: visible;
     opacity: 1; 
   }
@@ -64,9 +64,18 @@ export const AboutProject = styled.div`
   width: 435px;
   text-align: center;
   bottom: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   opacity: 0;
   visibility: hidden;
   transition: visibility 0s, opacity 0.5s linear; 
 
+  div {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
 `

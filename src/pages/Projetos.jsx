@@ -1,6 +1,9 @@
 import React from "react";
 import projects from '../projects/projects';
 import { AboutProject, CardProject, DivProjects, MainProject } from "../styles/components/Projects";
+import { CgWebsite } from 'react-icons/cg';
+import { BsGithub } from 'react-icons/bs';
+import { Button } from "../styles/components/Button";
 
 class Projetos extends React.Component {
   render() {
@@ -19,9 +22,14 @@ class Projetos extends React.Component {
                     <li key={ index }>{a}</li>
                   ))}
                 </ul>
-                <a href={project.links.preview} target="_blank" rel="noreferrer">
-                  <button className="btn btn-primary">Preview</button>
-                </a>
+                <div>
+                  <a href={project.links.github} target="_blank" rel="noreferrer">
+                    <Button><BsGithub /></Button>
+                  </a>
+                  <a href={project.links.preview} target="_blank" rel="noreferrer">
+                    <Button><CgWebsite /></Button>
+                  </a>
+                </div>
               </AboutProject>
             </CardProject>
           ))}
