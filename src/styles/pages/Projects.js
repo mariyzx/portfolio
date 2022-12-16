@@ -13,6 +13,13 @@ export const DivProjects = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   width: 90%;
+
+  div:nth-child(4) {
+    div {
+
+      margin-bottom: 0rem;
+    }
+  }
   
   @media only screen and (max-width: 435px) {
     width: 100%;
