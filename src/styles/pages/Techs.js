@@ -22,4 +22,19 @@ export const ListTechs = styled.div`
   gap: 20px;
   width: 90%;
   flex-wrap: wrap;
+
+  .inView {
+    animation: wipe-enter 1s 1;
+  }
+
+  @keyframes wipe-enter {
+	0% {
+		opacity: 0;
+    transform: translateY(50%);
+	}
+	100% {
+		opacity: 1;
+    transform: translateY(0);
+	}
+}
 `
