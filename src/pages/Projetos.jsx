@@ -8,7 +8,7 @@ import { Button } from "../styles/components/Button";
 class Projetos extends React.Component {
   render() {
     return (
-      <MainProject>
+      <MainProject id="projetos">
         <h2>Projetos</h2>
         <DivProjects>
           {projects.map((project, index) => (

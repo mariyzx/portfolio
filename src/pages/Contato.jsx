@@ -9,7 +9,7 @@ import { Divider } from '../styles/components/Divider';
 class Contato extends React.Component {
   render() {
     return (
-      <MainContact>
+      <MainContact id="contato">
         <Divider></Divider>
         <h2>Contato</h2>
         <div>

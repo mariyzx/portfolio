@@ -1,24 +1,24 @@
 import React from "react";
-import js from '../assets/js.png';
-import react from '../assets/react.png';
-import redux from '../assets/redux.png';
-import git from '../assets/git.png';
-import styledcomponents from '../assets/styled-components.png';
-import bootstrap from '../assets/bootstrap.png';
-import typescript from '../assets/typescript.png';
-import nodejs from '../assets/nodejs.png';
-import express from '../assets/express.png';
-import mysql from '../assets/mysql.png';
-import mongodb from '../assets/mongodb.png';
-import docker from '../assets/docker.png';
-import jest from '../assets/jest.png';
+import js from '../assets/icons/js.png';
+import react from '../assets/icons/react.png';
+import redux from '../assets/icons/redux.png';
+import git from '../assets/icons/git.png';
+import styledcomponents from '../assets/icons/styled-components.png';
+import bootstrap from '../assets/icons/bootstrap.png';
+import typescript from '../assets/icons/typescript.png';
+import nodejs from '../assets/icons/nodejs.png';
+import express from '../assets/icons/express.png';
+import mysql from '../assets/icons/mysql.png';
+import mongodb from '../assets/icons/mongodb.png';
+import docker from '../assets/icons/docker.png';
+import jest from '../assets/icons/jest.png';
 import { ListTechs, MainStacks } from "../styles/pages/Techs";
 import { Divider } from "../styles/components/Divider";
 
 class Techs extends React.Component {
   render() {
     return (
-      <MainStacks>
+      <MainStacks id="stacks">
         <h2>Stacks</h2>
         <ListTechs>
           <div>
