@@ -40,6 +40,17 @@ export const MainContact = styled.section`
     outline: none;
   }
 
+  @media only screen and (max-width: 700px) {
+    div {
+      flex-direction: column;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
 `
 
 export const DivContact = styled.div`

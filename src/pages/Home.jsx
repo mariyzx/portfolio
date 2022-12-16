@@ -5,6 +5,7 @@ import { MainScreen } from "../styles/pages/MainScreen";
 import Contato from "./Contato";
 import Projetos from "./Projetos";
 import SobreMim from "./SobreMim";
+import Techs from "./Tech";
 
 class Home extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class Home extends React.Component {
         <Main />
         <SobreMim />
       </MainScreen>
+      <Techs />
       <Projetos />
       <Contato />
     </div>
