@@ -43,7 +43,6 @@ export const CardProject = styled.div`
   }
 
   :hover div {
-    cursor: pointer;
     padding: 5px 10px;
     visibility: visible;
     opacity: 1; 
