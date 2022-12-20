@@ -18,7 +18,8 @@ Projetos listados;
 
 ## Preview:
 
-![Preview](./src/imgs/portfolio.PNG)
+![image](https://user-images.githubusercontent.com/69324347/208571468-45d3a893-64a3-4dbf-9f2e-efbb16ca2421.png)
+
 
 ## Connect:
 
