@@ -16,21 +16,15 @@ class Contato extends React.Component {
           <DivContact>
             <article>
               <AiOutlineMail />
-              <h4>Email</h4>
-              <h5>marinhomariana8@gmail.com</h5>
-              <a href="mailto:marinhomariana8@gmail.com" target="_blank" rel="noreferrer">Enviar mensagem</a>
+              <h4><a href="mailto:marinhomariana8@gmail.com" target="_blank" rel="noreferrer">Email</a></h4>
             </article>
             <article>
               <AiFillGithub />
-              <h4>GitHub</h4>
-              <h5>mariyzx</h5>
-              <a href="https://github.com/mariyzx" target="_blank" rel="noreferrer">Enviar mensagem</a>
+              <h4><a href="https://github.com/mariyzx" target="_blank" rel="noreferrer">GitHub</a></h4>
             </article>
             <article>
               <AiFillLinkedin />
-              <h4>LinkedIn</h4>
-              <h5>marinhomariana8</h5>
-              <a href="https://www.linkedin.com/in/marinhomariana8/" target="_blank" rel="noreferrer">Enviar mensagem</a>
+              <h4> <a href="https://www.linkedin.com/in/marinhomariana8/" target="_blank" rel="noreferrer">LinkedIn</a></h4>
             </article>
           </DivContact>
           <form action="https://formsubmit.co/6017a703556f84b48d26de2cc13ee0ae" method="POST">

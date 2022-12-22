@@ -11,11 +11,12 @@ export const MainContact = styled.section`
     margin-bottom: 1rem;
     
     a {
-      color: purple;
+      text-decoration: none;
+      color: black;
     }
 
     a:visited {
-      color: blue;
+      color: purple;
     }
   }
 
