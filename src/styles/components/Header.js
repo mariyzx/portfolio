@@ -14,4 +14,9 @@ export const HeaderLinks = styled.ul`
   align-items: center;
   gap: 1rem;
   list-style-type: none;
+  cursor: pointer;
+
+  li:hover {
+    color: #Cc47f9;
+  }
 `
