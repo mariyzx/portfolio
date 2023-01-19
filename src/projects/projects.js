@@ -52,7 +52,7 @@ module.exports = [
       preview: 'https://snk-api-eight.vercel.app/',
       github: 'https://github.com/mariyzx/snk-api'
     },
-    description: 'API de personagens do anime Attack on Titan, com um front-end consumindo.',
-    tech: ['Node.js', 'Javascript, MySQL', 'Sequelize', 'Express'],
+    description: 'Banco de dados de personagens do anime Attack on Titan, com um front-end consumindo essa API',
+    tech: ['Node.js', 'Javascript', 'MySQL', 'Sequelize', 'Express'],
   },
 ]

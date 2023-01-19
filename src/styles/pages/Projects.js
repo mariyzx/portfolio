@@ -62,6 +62,10 @@ export const CardProject = styled.div`
 export const AboutProject = styled.div`
   position: absolute;
   display: flex;
+  color: purple;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  font-weight: 700;
   flex-direction: column;
   align-items: center;
   justify-content: center;
