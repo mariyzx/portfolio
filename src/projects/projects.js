@@ -2,7 +2,6 @@ const trybetunes = require('../assets/thumbs/trybetunes.PNG');
 const trybewallet = require('../assets/thumbs/trybewallet3.png');
 const recipes = require('../assets/thumbs/recipes-app.png');
 const tfc = require('../assets/thumbs/tfc.PNG');
-const aot = require('../assets/thumbs/aot.PNG');
 
 module.exports = [
   {
@@ -44,15 +43,5 @@ module.exports = [
     },
     description: 'API para um site informativo de partidas e classificações de futebol, com listagem de times, partidas e autenticação do usuário. API documentada com o Swagger.',
     tech: ['Node.js', 'MySQL', 'Docker', 'Typescript', 'Sequelize']
-  },
-  {
-    name: 'Attack on Titan API',
-    img: aot,
-    links: {
-      preview: 'https://snk-api-eight.vercel.app/',
-      github: 'https://github.com/mariyzx/snk-api'
-    },
-    description: 'Banco de dados de personagens do anime Attack on Titan, com um front-end consumindo essa API',
-    tech: ['Node.js', 'Javascript', 'MySQL', 'Sequelize', 'Express'],
   },
 ]
