@@ -5,6 +5,9 @@ export const MainTitle = styled.section`
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 7rem;
+  height: 100vh;
 
   h1 {
     white-space: nowrap;
