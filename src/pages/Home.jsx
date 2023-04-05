@@ -14,8 +14,8 @@ class Home extends React.Component {
       <MainScreen>
         <Header />
         <Main />
-        <SobreMim />
       </MainScreen>
+      <SobreMim />
       <Techs />
       <Projetos />
       <Contato />
