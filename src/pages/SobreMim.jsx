@@ -4,17 +4,19 @@ import { MainAbout } from "../styles/pages/About";
 class SobreMim extends React.Component {
   render() {
     return (
-      <MainAbout>
+      <MainAbout id="sobre">
         <h2>Sobre mim</h2>
         <div>
           <article className="about_card">
-            21 anos, carioca, atualmente aprendendo desenvolvimento fullstack na Trybe!
+            Sou uma desenvolvedora Full-Stack localizada no Rio de Janeiro.<br></br>
+            Formada em Desenvolvimento Web pela <a href='https://www.betrybe.com/' target="_blank" rel="noreferrer">Trybe </a>
+            e cursando Matemática na UFRRJ.<br></br>
             <br></br>
-            Amo café, ficção científica, passar meu tempo livre jogando e aprender coisas novas!
-            <br></br>
-            Em busca da minha primeira oportunidade como dev ♥
+            Pessoa bem organizada, solucionadora de problemas e com perfil autodidata. <br></br> 
+            Apaixonada por jogos, filmes de ficção científica, música e literatura.
+            <br></br>Interessada em todo o aspecto full-stack, desde a criação de banco de dados até interface de usuário.
+            <br></br>Procuro trabalhar em projetos ambiciosos com pessoas positivas!
           </article>
-          <a href="/#contato" className="btn btn-primary">Vamos conversar ✉</a>
         </div>
       </MainAbout>
     )
