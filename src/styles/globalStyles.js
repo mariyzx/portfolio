@@ -20,5 +20,6 @@ export const GlobalStyle = createGlobalStyle`
     min-width: 100%;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
+    transition: ease all 0.5s;
 }
 `
