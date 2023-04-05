@@ -3,21 +3,20 @@ import styled from 'styled-components';
 export const MainAbout = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
+  height: 100vh;
+  margin-top: 20px;
 
   div {
     display: flex;
-    flex-direction: column;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 5rem;
   }
 
   a {
-    color: white;
+    text-decoration: none;
+    color: purple;
   }
 
   /* SMARTPHONES LANDSCAPE */
