@@ -21,5 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     transition: ease all 0.5s;
+    background-color: #fbf2f2;
+    font-size: 19px;
 }
 `
