@@ -10,7 +10,7 @@ class SobreMim extends React.Component {
           <article className="about_card">
             Sou uma desenvolvedora Full-Stack localizada no Rio de Janeiro.<br></br>
             Formada em Desenvolvimento Web pela <a href='https://www.betrybe.com/' target="_blank" rel="noreferrer">Trybe </a>
-            e cursando Matemática na UFRRJ.<br></br>
+            e cursando Matemática Aplicada e Computacional na UFRRJ.<br></br>
             <br></br>
             Pessoa bem organizada, solucionadora de problemas e com perfil autodidata. <br></br> 
             Apaixonada por jogos, filmes de ficção científica, música e literatura.
