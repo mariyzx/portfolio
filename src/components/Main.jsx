@@ -7,7 +7,7 @@ class Main extends React.Component {
       <MainTitle>
         <span>
           <h1>Mariana Werneck</h1>
-          <h2>Front-end developer</h2>
+          <h2>Full-stack developer</h2>
         </span>
         <a href="/#contato" className="btn btn-primary">Vamos conversar ✉</a>
       </MainTitle>
