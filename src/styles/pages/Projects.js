@@ -8,6 +8,15 @@ export const MainProject = styled.section`
   justify-content: center;
 `
 
+export const DivTech = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 2rem;
+`
+
 export const DivProjects = styled.div`
   display: flex;
   justify-content: center;
