@@ -47,8 +47,8 @@ export const CardProject = styled.div`
     img {
       width: 320px;
       height: 190px;
-    }
-  }   
+    };
+  }
 
   :hover div {
     visibility: visible;
@@ -58,7 +58,6 @@ export const CardProject = styled.div`
   :hover img {
     filter: blur(2px)
   }
-
 `
 
 export const AboutProject = styled.div`
@@ -77,6 +76,11 @@ export const AboutProject = styled.div`
   opacity: 0;
   visibility: hidden;
   transition: visibility 0s, opacity 0.5s linear; 
+
+  @media only screen and (max-width: 435px) {
+    width: 95%;
+    font-size: 4vw;
+  }
 
   div {
     display: flex;
