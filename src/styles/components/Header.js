@@ -6,6 +6,10 @@ export const MainHeader = styled.div`
   align-items: center;
   top: 0;
   width: 100%;
+
+  @media only screen and (max-width: 435px) {
+    font-size: 4vw;
+  }   
 `
 
 export const HeaderLinks = styled.ul`
