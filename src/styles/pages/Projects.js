@@ -14,11 +14,7 @@ export const DivProjects = styled.div`
   flex-wrap: wrap;
   width: 90%;
 
-  div:nth-child(4) {
-    div {
-      margin-bottom: 0rem;
-    }
-  }
+
   
   @media only screen and (max-width: 435px) {
     width: 100%;
@@ -46,6 +42,13 @@ export const CardProject = styled.div`
     border: 2px solid transparent;
     border-radius: 20px;
   }
+
+  @media only screen and (max-width: 435px) {
+    img {
+      width: 320px;
+      height: 190px;
+    }
+  }   
 
   :hover div {
     visibility: visible;
