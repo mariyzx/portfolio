@@ -1,7 +1,11 @@
-# Portfólio!
+# 💫 Portfólio!
 
 Nesse projeto desenvolvi uma página em React, responsável por listar meus projetos desenvolvidos e habilidades adquiridas.
 Estilizado com Styled Components e possuindo design responsivo!
+
+# 🖥️ Preview
+
+![portfolio](https://github.com/mariyzx/portfolio/assets/69324347/59f5a576-f2b7-4139-ba13-8d4032a54798)
 
 ## 🚀 Começando
 
