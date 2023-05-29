@@ -12,7 +12,7 @@ module.exports = [
       github: 'https://github.com/mariyzx/songify',
     },
     description: 'Aplicação full-stack de busca de músicas e álbuns, é possível favoritar uma faixa específica do álbum, editar perfil e verificar as faixas favoritadas.',
-    tech: ['ReactJS', 'CSS']
+    tech: ['ReactJS', 'CSS', 'Styled Components', 'Context API', 'All']
   },
   {
     name: 'Recipes App',
@@ -21,7 +21,7 @@ module.exports = [
       github: 'https://github.com/mariyzx/Recipes-App',
     },
     description: 'Projeto final de front-end! Aplicação que retorna receitas de comidas e bebidas, com filtros, tela de receitas favoritadas e receitas concluídas.',
-    tech: ['ReactJS', 'CSS', 'Context API', 'Styled Components']
+    tech: ['ReactJS', 'CSS', 'Context API', 'Styled Components', 'All']
   },
   {
     name: 'Trybeer',
@@ -30,7 +30,7 @@ module.exports = [
       github: 'https://github.com/mariyzx/trybeer',
     },
     description: 'Projeto final de back-end! Aplicação full-stack de delivery de cerveja, onde é possível logar tanto como usuário ou vendedor.',
-    tech: ['ReactJS', 'MySQL', 'Node.js', 'API', 'RTL']
+    tech: ['ReactJS', 'MySQL', 'Node.js', 'API', 'RTL', 'All']
   },
   {
     name: 'TFC',
@@ -40,7 +40,7 @@ module.exports = [
       github: 'https://github.com/mariyzx/tfc',
     },
     description: 'API para um site informativo de partidas e classificações de futebol, com listagem de times, partidas e autenticação do usuário.',
-    tech: ['Node.js', 'MySQL', 'Docker', 'Typescript', 'Sequelize']
+    tech: ['Node.js', 'API', 'MySQL', 'Docker', 'Typescript', 'All']
   },
   {
     name: 'Car Shop',
@@ -49,6 +49,6 @@ module.exports = [
       github: 'https://github.com/mariyzx/car-shop'
     },
     description: 'API para gerenciar uma concessionária de veículos, utilizando o banco de dados MongoDB através do framework Mongoose.',
-    tech: ['Typescript', 'MongoDB', 'Mongoose', 'API']
+    tech: ['Typescript', 'MongoDB', 'API', 'All']
   }
 ]
