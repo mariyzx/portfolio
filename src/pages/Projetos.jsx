@@ -1,15 +1,38 @@
-import React from "react";
-import projects from '../projects/projects';
-import { AboutProject, CardProject, DivProjects, MainProject } from "../styles/pages/Projects";
+import React, { useState } from "react";
+import objProjects from '../projects/projects';
+import { AboutProject, CardProject, DivProjects, DivTech, MainProject } from "../styles/pages/Projects";
 import { CgWebsite } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
-import { Button } from "../styles/components/Button";
+import { Button, TechButton } from "../styles/components/Button";
 
-class Projetos extends React.Component {
-  render() {
+function Projetos() {
+    const [projects, setProjects] = useState(objProjects);
+    const techList = [];
+
+    objProjects.forEach((project) => {
+      project.tech.forEach((tech) => {
+        if (!techList.includes(tech)) {
+          techList.push(tech);
+        }
+      });
+    });
+
+    const orderedTechList = techList.sort((a, b) => a.localeCompare(b))
+
+    const handleClick = async (tech) => {
+      setProjects(objProjects.filter((project) => project.tech.includes(tech)))
+    }
+
     return (
       <MainProject id="projetos">
         <h2>Projetos</h2>
+        <DivTech>
+        {
+          orderedTechList.map((tech, i) => (
+            <TechButton type="button" key={i} onClick={() => handleClick(tech)}>{tech}</TechButton>
+          ))
+        }
+        </DivTech>
         <DivProjects>
           {projects.map((project, index) => (
             <CardProject key={ index } onClick={ () => this.showDetails(project)}>
@@ -33,7 +56,7 @@ class Projetos extends React.Component {
         </DivProjects>
       </MainProject>
     )
-  }
+  
 }
 
 export default Projetos;
