@@ -1,30 +1,37 @@
 # Portfólio!
 
-## Funcionalidades:
+Nesse projeto desenvolvi uma página em React, responsável por listar meus projetos desenvolvidos e habilidades adquiridas.
+Estilizado com Styled Components e possuindo design responsivo!
 
-Design responsivo;
-Através desse portfólio é possível me contactar pelo email (FormSubmit);
-Projetos listados;
+## 🚀 Começando
 
-## Tecnologias utilizadas: 
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
- - React
- - React Router
- - FormSubmit
- - Styled Components
- 
-## Como utilizar:
+Consulte **[Instalação](#install)** para saber como rodar o projeto.
 
-<p>Clone o repositório: <code> git@github.com:mariyzx/portfolio.git</code>.</p>
-<p>Acesse a pasta do repositório clonado.</p>
-<p>Rode o comando <code>npm install</code> para instalar as dependências do projeto e <code>npm start</code> para visualizar no navegador.</p>
+### 📋 Pré-requisitos
 
-## Preview:
+``Node``
+> O projeto espera que sua versão do node seja a 18.
 
-![image](https://user-images.githubusercontent.com/69324347/208571468-45d3a893-64a3-4dbf-9f2e-efbb16ca2421.png)
+## 🔧 Instalação<a name="install"></a>
 
+Clone o repositório:
 
-## Connect:
+```
+git@github.com:mariyzx/portfolio.git
+```
+:information_source: Instale as dependências com `npm install` e rode o projeto com `npm start` na raíz do projeto.
+
+## 🛠️ Construído com
+
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [React](https://react.dev/)
+* [Styled Components](https://styled-components.com/)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [FormSubmit](https://formsubmit.co/)
+
+## 💚 Connect:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marinhomariana8/) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 )](mailto:marinhomariana8@gmail.com)
