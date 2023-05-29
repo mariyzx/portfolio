@@ -21,9 +21,11 @@ class Projetos extends React.Component {
                   <a href={project.links.github} target="_blank" rel="noreferrer">
                     <Button><BsGithub /></Button>
                   </a>
-                  <a href={project.links.preview} target="_blank" rel="noreferrer">
-                    <Button><CgWebsite /></Button>
-                  </a>
+                  {project.links.preview && (
+                    <a href={project.links.preview} target="_blank" rel="noreferrer">
+                      <Button><CgWebsite /></Button>
+                    </a>
+                  )}
                 </div>
               </AboutProject>
             </CardProject>
