@@ -21,4 +21,8 @@ export const TechButton = styled.button`
 	cursor: pointer;
 	outline: inherit;
   color: purple;
+
+	:active {
+		background-color: lightgrey;
+	}
 `
