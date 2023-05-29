@@ -17,11 +17,6 @@ class Projetos extends React.Component {
               <img width="435px" height="204px" src={ project.img } alt={ project.description } />
               <AboutProject>
                 <p>{project.description}</p>
-                <ul>
-                  {project.tech.map((a, index) => (
-                    <li key={ index }>{a}</li>
-                  ))}
-                </ul>
                 <div>
                   <a href={project.links.github} target="_blank" rel="noreferrer">
                     <Button><BsGithub /></Button>
