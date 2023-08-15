@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import objProjects from '../projects/projects';
+import objProjects from '../helpers/projects';
 import { AboutProject, CardProject, DivProjects, DivTech, MainProject } from "../styles/pages/Projects";
 import { CgWebsite } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
