@@ -4,27 +4,27 @@ const skills = [
   {
     icon: Server,
     title: "Backend Development",
-    description: "Node.js, Python, Java, APIs REST, GraphQL",
+    description: "Node.js, Python, Java, APIs REST, NestJS",
   },
   {
     icon: Database,
     title: "Databases & Cloud",
-    description: "PostgreSQL, MongoDB, Redis, AWS, Docker",
+    description: "MySQL, PostgreSQL, MongoDB, Redis, Docker",
   },
   {
     icon: Code2,
     title: "Arquitetura & Padrões",
-    description: "Microservices, Clean Architecture, SOLID, TDD",
+    description: "Clean Architecture, SOLID, TDD",
   },
   {
     icon: Layout,
     title: "Frontend Development",
-    description: "React, TypeScript, Next.js, Tailwind CSS",
+    description: "React, TypeScript, Tailwind CSS, React Native, Expo",
   },
   {
     icon: Smartphone,
     title: "DevOps & CI/CD",
-    description: "Git, GitHub Actions, Jenkins, Kubernetes",
+    description: "Firebase, Vercel, GCP, Docker",
   },
   {
     icon: Palette,

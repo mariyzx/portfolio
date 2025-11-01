@@ -10,13 +10,13 @@ export const Footer = () => {
               Mariana Werneck
             </div>
             <p className="text-muted-foreground text-sm">
-              Desenvolvedora Back-end
+              Desenvolvedora Web
             </p>
           </div>
           
           <div className="flex gap-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/mariyzx" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
@@ -25,7 +25,7 @@ export const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/marinhomariana8/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
@@ -34,7 +34,7 @@ export const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:dev@example.com"
+              href="mailto:marinhomariana8@gmail.com"
               className="p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
               aria-label="Email"
             >
