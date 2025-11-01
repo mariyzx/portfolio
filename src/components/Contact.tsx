@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -16,30 +16,20 @@ export const Contact = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 rounded-lg bg-card border border-border hover:border-primary/50 transition-all text-center space-y-3">
               <div className="w-12 h-12 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <div>
                 <div className="font-semibold mb-1">Email</div>
-                <a href="mailto:dev@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  dev@example.com
+                <a  className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  marinhomariana8@gmail.com
                 </a>
               </div>
             </div>
             
-            <div className="p-6 rounded-lg bg-card border border-border hover:border-primary/50 transition-all text-center space-y-3">
-              <div className="w-12 h-12 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
-                <Phone className="w-6 h-6 text-primary" />
-              </div>
-              <div>
-                <div className="font-semibold mb-1">Telefone</div>
-                <a href="tel:+5511999999999" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  +55 (11) 99999-9999
-                </a>
-              </div>
-            </div>
+            
             
             <div className="p-6 rounded-lg bg-card border border-border hover:border-primary/50 transition-all text-center space-y-3">
               <div className="w-12 h-12 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
@@ -48,7 +38,7 @@ export const Contact = () => {
               <div>
                 <div className="font-semibold mb-1">Localização</div>
                 <div className="text-sm text-muted-foreground">
-                  São Paulo, Brasil
+                  Rio de Janeiro, Brasil
                 </div>
               </div>
             </div>

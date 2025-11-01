@@ -34,7 +34,7 @@ export const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Desenvolvedora Back-end especializada em criar APIs robustas e escaláveis
+            Apaixonada por desenvolver produtos que facilitam a vida das pessoas.
             </p>
           </div>
           
