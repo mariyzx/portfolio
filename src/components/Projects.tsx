@@ -1,32 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-
+import songify from "@/assets/songify.png";
+import nest from "@/assets/nest-js.jpg";
 import { Card } from "./ui/card";
 
 const projects = [
   {
-    title: "API de E-commerce",
-    description: "API RESTful completa com autenticação, processamento de pagamentos e sistema de pedidos",
-    image: null,
-    tags: ["Node.js", "PostgreSQL", "Redis", "Stripe"],
-    demo: "#",
-    github: "#",
+    title: "Songify!",
+    description: "Aplicação full-stack, responsável por reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
+    image: songify,
+    tags: ["Node.js", "MySQL", "Express", "Prisma", "React", "Styled Components"],
+    demo: "",
+    github: "https://github.com/mariyzx/songify",
   },
   {
-    title: "Microservices Platform",
-    description: "Arquitetura de microserviços com mensageria, cache distribuído e monitoramento",
-    image: null,
-    tags: ["Node.js", "RabbitMQ", "Docker", "Kubernetes"],
-    demo: "#",
-    github: "#",
-  },
-  {
-    title: "Real-time Chat API",
-    description: "Sistema de chat em tempo real com WebSockets, autenticação JWT e persistência",
-    image: null,
-    tags: ["Node.js", "Socket.io", "MongoDB", "JWT"],
-    demo: "#",
-    github: "#",
+    title: "Nest Shop!",
+    description: "Uma API REST completa desenvolvida com NestJS para gerenciar uma loja online, incluindo gerenciamento de usuários, produtos e pedidos com autenticação JWT e cache Redis.",
+    image: nest,
+    tags: ["NestJS", "PostgreSQL", "Redis", "JWT", "Docker", "Redis"],
+    demo: "",
+    github: "https://github.com/mariyzx/nest-loja",
   },
 ];
 
@@ -45,7 +38,7 @@ export const Projects = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <Card
                 key={project.title}
@@ -77,7 +70,7 @@ export const Projects = () => {
                   </div>
                   
                   <div className="flex gap-3 pt-2">
-                    <Button
+                    {project.demo && <Button
                       size="sm"
                       className="flex-1 bg-primary hover:bg-primary/90"
                       asChild
@@ -86,7 +79,7 @@ export const Projects = () => {
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Demo
                       </a>
-                    </Button>
+                    </Button>}
                     <Button
                       size="sm"
                       variant="outline"

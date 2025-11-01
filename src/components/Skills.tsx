@@ -4,7 +4,7 @@ const skills = [
   {
     icon: Server,
     title: "Backend Development",
-    description: "Node.js, Python, Java, APIs REST, NestJS",
+    description: "Node.js, Express, Python, Java, APIs REST, NestJS",
   },
   {
     icon: Database,
